@@ -3,6 +3,8 @@ import {FaBars, FaSearch} from 'react-icons/fa'
 import { Nav,NavbarContainer,NavLogo,MobileIcon,NavMenu,NavItem,NavLinks,SearchIcon } from './NavbarElements';
 import Logo from '../../assets/logo_header.png'
 
+import   './navbar.css'
+
  const Navbar = ({toggle}) => {
     return (
         <>
@@ -14,22 +16,22 @@ import Logo from '../../assets/logo_header.png'
                <MobileIcon onClick={toggle}><FaBars /></MobileIcon>
                <NavMenu>
                       <NavItem>
-                         <NavLinks to="Home">HOME</NavLinks>
+                         <NavLinks className="NavLinksActive" to="Home">HOME</NavLinks>
                       </NavItem>
                       <NavItem>
-                      <NavLinks to="Product">PRODUCT</NavLinks>
+                      <NavLinks className="NavLinksActive" to="Product">PRODUCT</NavLinks>
                       </NavItem>
                       <NavItem>
-                      <NavLinks to="CollABS">COLLABS</NavLinks>
+                      <NavLinks className="NavLinksActive" to="CollABS">COLLABS</NavLinks>
                       </NavItem>
                       <NavItem>
-                      <NavLinks to="Blog">BLOG</NavLinks>
+                      <NavLinks  className="NavLinksActive" to="Blog">BLOG</NavLinks>
                       </NavItem>
                       <NavItem>
-                      <NavLinks to="About">ABOUT</NavLinks>
+                      <NavLinks className="NavLinksActive" to="About">ABOUT</NavLinks>
                       </NavItem>
                       <NavItem>
-                      <NavLinks to="Contact">CONTACT</NavLinks>
+                      <NavLinks className="NavLinksActive" to="Contact">CONTACT</NavLinks>
                       </NavItem>
                </NavMenu>
                <SearchIcon>

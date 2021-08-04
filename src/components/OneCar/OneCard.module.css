@@ -11,9 +11,10 @@
     
 }
 .Container h1{
-    font-size: 2rem ;
+    font-size: 2rem;
     margin-top: 30%;
-    -webkit-text-stroke: 1px black;
+    color: white;
+    -webkit-text-stroke: 1px #0a0909;
     }
     
     .Container p{
@@ -21,6 +22,7 @@
     text-align: center;
     padding: 0 25%;
     font-weight: 500;
+    font-size: 20px;
     -webkit-text-stroke: 0.1px black;
 }
  h3{

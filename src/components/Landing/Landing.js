@@ -1,9 +1,18 @@
 import React from 'react'
 import style from './Landing.module.css'
+import img from '../../assets/ornament.png'
 const Landing = () => {
     return (
-        <div className={style.Container}>
-            <button className={style.ContactUsButton}>CONTACT US</button>
+        <div className={style.Landing}>
+            <div className={style.Container}>
+
+
+                <img  src={img} />
+           
+                <button className={style.ContactUsButton}>CONTACT US</button>
+            </div>
+
+
         </div>
     )
 }

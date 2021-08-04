@@ -8,7 +8,7 @@
     justify-content: center;
     background-color: #000000 !important;
    
-    background-image: url("../../assets/ornament.png");
+ /*    background-image: url("../../assets/ornament.png"); */
     background-repeat: no-repeat;
     background-position:0 -14.3% ;
 }
@@ -32,8 +32,8 @@ flex-wrap: wrap;
     height: auto;
     display: flex;
     flex-direction: column;
-    padding: 12%  10% 10% 6% !important;
-    background: url("../../assets/ornament3.png") ;
+    padding: 16% 10% 10% 6% !important;
+        background: url("../../assets/ornament3.png") ;
     background-repeat: no-repeat;
    
 }
@@ -135,11 +135,37 @@ flex-wrap: wrap;
     .EventInfo1{align-items: center;
         width: 100%;}
         .EventInfo2{align-items: center;
+            padding-top:11px ;
             width: 100%;}
         .images {  height: 100%;width: 100%}
         .EventInfo1 p{text-align: center;}
         .EventInfo1 h1{text-align: center;}
         .EventInfo2 h1{text-align: center;}
         .EventInfo2 p{text-align: center;}
+  }
+  
+  .imgCARTIER{
+      width: 50%;height: 120%;
+     
+  }
+  .EventInfo2 span{
+      color: #fff;
+    
+    font-size:400%} 
+  @media screen and (max-width:700px){
+    .imgCARTIER{
+        
+        width: 10%;height: 60%;
+       
+    }
+    .EventInfo2 span{font-size:200%} 
+  }
+
+  @media screen and (max-width: 800px) {
+
+    .Container img {
+      font-size: 0% !important;
+      display: none;
+    }
   }
   

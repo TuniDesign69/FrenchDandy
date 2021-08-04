@@ -1,21 +1,35 @@
-.Container{
-  
-  width: 100%;
-  height: auto;
-  background: url("../../assets/banner.jpg") ;
+.Landing .Container {
 
-  background-size:cover;
-display: flex;
-flex-direction: column;
-
+margin: 0;
+  background: url("../../assets/banner.jpg");
+background-repeat: no-repeat;
+  background-size: cover;
 
 }
-.ContactUsButton{
-    margin: 40% 0 9.5% 5% ;
-  width:max-content;
-    padding: 0.8% 3.5%;
-    font-size: 180%;
-    color: white;
-    background-image: linear-gradient(to right, #fcf6ba,#DF9F28,#935D17 100%);
-    border-radius: 5px;
+.ContactUsButton {
+  margin: 40% 0 3.5% 5%;
+  width: max-content;
+  padding: 0.8% 3.5%;
+  font-size: 180%;
+  color: white;
+  background-image: linear-gradient(to right, #fcf6ba, #df9f28, #935d17 100%);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 400px) {
+  .Container {
+    max-height: 200px;
+  }
+  .ContactUsButton {
+    padding: 0px;
+    font-size: 0%;
+     }
+}
+
+@media screen and (max-width: 800px) {
+
+  .Landing img {
+    font-size: 0% !important;
+    display: none;
+  }
 }
