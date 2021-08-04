@@ -1,0 +1,145 @@
+
+.Container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000 !important;
+   
+    background-image: url("../../assets/ornament.png");
+    background-repeat: no-repeat;
+    background-position:0 -14.3% ;
+}
+.Events{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+flex-wrap: wrap;
+}
+.EventInfo{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 15%  10% 10% 10% !important;
+   
+}
+.EventInfo2{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 12%  10% 10% 6% !important;
+    background: url("../../assets/ornament3.png") ;
+    background-repeat: no-repeat;
+   
+}
+.EventInfo1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 15%  0% 10% 5% !important;
+    background: linear-gradient(#fcf6ba, #bf953f,#935D17); ;
+   
+}
+.EventInfo h1{
+    margin-top: 3%;
+    color: white;
+    font-weight: 700;
+    font-size: 350%;
+    font-family: 'Oswald',sans-serif;
+ 
+}.EventInfo2 h1{
+    margin-top: 3%;
+    color: white;
+    font-weight: 700;
+    font-size: 350%;
+    font-family: 'Oswald',sans-serif;
+ 
+}
+.EventInfo1 h1{
+    margin-top: 3%;
+    color: white;
+    font-weight: 700;
+    font-size: 400%;
+    font-family: 'Oswald',sans-serif;
+ margin-bottom: 5%;
+}
+.Container>h1{
+    margin-top: 3%;
+    color: white;
+    font-weight: 700;
+    font-size: 350%;
+    font-family: 'Oswald',sans-serif;
+    text-align: center;
+}
+.line{
+    margin: 2% 0;
+    border-top: 4px solid ;
+    
+    border-image: linear-gradient(45deg, #935D17, #bf953f,#fcf6ba,#935D17) 1;
+    width: 70%;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+
+width: 90%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ContactUsButton{
+    margin-top: 7%;
+     width: max-content;
+     padding: 2.5% 7%;
+     font-size: 150%;
+     color: white;
+     background-image: linear-gradient(to right,#935D17,#DF9F28,#fcf6ba 100%);
+     border-radius: 5px;
+     margin-bottom: 28%;
+ }
+ .ContactUsButton1{
+    margin-top: 7%;
+     width: max-content;
+     padding: 2.5% 10%;
+     font-size: 150%;
+     color: white;
+     background-color: black;
+     border-radius: 5px;
+     margin-bottom: 28%;
+ }
+.EventBanner {  
+  /* The image used */
+  background-image: url("../../assets/cartier.png");
+ 
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;}
+  .Collab{ width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+flex-wrap: wrap;
+}
+.images {  height: 100%;
+    width: 50% }
+  @media only screen and (max-width: 900px) {
+    .EventInfo{align-items: center;
+    width: 100%;}
+    .EventInfo1{align-items: center;
+        width: 100%;}
+        .EventInfo2{align-items: center;
+            width: 100%;}
+        .images {  height: 100%;width: 100%}
+        .EventInfo1 p{text-align: center;}
+        .EventInfo1 h1{text-align: center;}
+        .EventInfo2 h1{text-align: center;}
+        .EventInfo2 p{text-align: center;}
+  }
+  

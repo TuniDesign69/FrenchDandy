@@ -1,0 +1,50 @@
+.Container{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+}
+.line{
+    margin: 2% 0;
+    border-top: 4px solid ;
+    
+    border-image: linear-gradient(45deg, #935D17, #bf953f,#fcf6ba,#935D17) 1;
+    width: 70%;
+}
+.Container h1 {
+margin: 7% 0 1% 0}
+.parag {
+    width: 40%;
+     font-size: 1.2rem;
+     padding: 0 0 3% 0 ;
+    text-align: center;
+ }
+ .input{
+     width: 25%;
+     padding: 0.9%;
+     margin:1% 0;
+ }
+ .Command{
+     font-size: 120%;
+     border: none;
+     margin: 2% 0;
+     width: max-content;
+     padding:  1% 4%;
+     font-weight: 700;
+     color:white;
+     background-image: linear-gradient(to right, #935D17, #bf953f,#fcf6ba,#DF9F28,#935D17 100%);
+ }
+ .input1{
+padding: 1%;
+    width: 30% ;
+ }
+ .button2{
+     
+    width: max-content;
+    padding: 1%;
+    font-weight: 700;
+    color: white;
+    background-image: linear-gradient(to right, #935D17, #bf953f,#fcf6ba,#DF9F28,#935D17 100%);
+ }
