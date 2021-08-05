@@ -1,171 +1,279 @@
+.Container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000 !important;
 
-.Container{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #000000 !important;
-   
- /*    background-image: url("../../assets/ornament.png"); */
-    background-repeat: no-repeat;
-    background-position:0 -14.3% ;
+  /*    background-image: url("../../assets/ornament.png"); */
+  background-repeat: no-repeat;
+  background-position: 0 -14.3%;
 }
-.Events{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-flex-wrap: wrap;
+.Events {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-.EventInfo{
-    width: 50%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    padding: 15%  10% 10% 10% !important;
-   
+.EventInfo {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
-.EventInfo2{
-    width: 50%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    padding: 16% 10% 10% 6% !important;
-        background: url("../../assets/ornament3.png") ;
-    background-repeat: no-repeat;
-   
+.imagesornament {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 16% 10% 10% 6% !important;
+  background-repeat: no-repeat;
 }
-.EventInfo1{
-    width: 50%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    padding: 15%  0% 10% 5% !important;
-    background: linear-gradient(#fcf6ba, #bf953f,#935D17); ;
-   
-}
-.EventInfo h1{
-    margin-top: 3%;
-    color: white;
-    font-weight: 700;
-    font-size: 350%;
-    font-family: 'Oswald',sans-serif;
- 
-}.EventInfo2 h1{
-    margin-top: 3%;
-    color: white;
-    font-weight: 700;
-    font-size: 350%;
-    font-family: 'Oswald',sans-serif;
- 
-}
-.EventInfo1 h1{
-    margin-top: 3%;
-    color: white;
-    font-weight: 700;
-    font-size: 400%;
-    font-family: 'Oswald',sans-serif;
- margin-bottom: 5%;
-}
-.Container>h1{
-    margin-top: 3%;
-    color: white;
-    font-weight: 700;
-    font-size: 350%;
-    font-family: 'Oswald',sans-serif;
-    text-align: center;
-}
-.line{
-    margin: 2% 0;
-    border-top: 4px solid ;
-    
-    border-image: linear-gradient(45deg, #935D17, #bf953f,#fcf6ba,#935D17) 1;
-    width: 70%;
-}
-.cards{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-   
+.EventInfo2IMG {
+  color: white;
+  text-align: center;
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 
-width: 90%;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  background: url("../../assets/ornament3.png");
+  background-repeat: no-repeat;
 }
-.ContactUsButton{
-    margin-top: 7%;
-     width: max-content;
-     padding: 2.5% 7%;
-     font-size: 150%;
-     color: white;
-     background-image: linear-gradient(to right,#935D17,#DF9F28,#fcf6ba 100%);
-     border-radius: 5px;
-     margin-bottom: 28%;
- }
- .ContactUsButton1{
-    margin-top: 7%;
-     width: max-content;
-     padding: 2.5% 10%;
-     font-size: 150%;
-     color: white;
-     background-color: black;
-     border-radius: 5px;
-     margin-bottom: 28%;
- }
-.EventBanner {  
+.EventInfo2 {
+  width: 50%;
+  height: auto;
+  color: white;
+}
+.EventInfo1 {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 15% 0% 10% 5% !important;
+  background: linear-gradient(#fcf6ba, #bf953f, #935d17);
+}
+.EventInfo h1 {
+  margin-top: 3%;
+  color: white;
+  font-weight: 700;
+  font-size: 350%;
+  font-family: "Oswald", sans-serif;
+}
+.EventInfo2 h1 {
+  margin-top: 3%;
+  color: white;
+  font-weight: 700;
+  font-size: 350%;
+  font-family: "Oswald", sans-serif;
+}
+.EventInfo1 h1 {
+  margin-top: 3%;
+  color: white;
+  font-weight: 700;
+  font-size: 400%;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 5%;
+}
+.Container > h1 {
+  margin-top: 3%;
+  color: white;
+  font-weight: 700;
+  font-size: 350%;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+.line {
+  margin: 2% 0;
+  border-top: 4px solid;
+
+  border-image: linear-gradient(45deg, #935d17, #bf953f, #fcf6ba, #935d17) 1;
+  width: 70%;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: 90%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.ContactUsButton {
+  margin-left: 30%;
+  margin-top: 7%;
+  width: max-content;
+  padding: 2.5% 7%;
+  font-size: 150%;
+  color: white;
+  background-image: linear-gradient(to right, #935d17, #df9f28, #fcf6ba 100%);
+  border-radius: 5px;
+  margin-bottom: 28%;
+}
+.ContactUsButton1 {
+  margin-top: 7%;
+  width: max-content;
+  padding: 2.5% 10%;
+  font-size: 150%;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  margin-bottom: 28%;
+}
+.EventBanner {
   /* The image used */
   background-image: url("../../assets/cartier.png");
- 
-  background-repeat:no-repeat;
-  background-size:contain;
-  background-position:center;}
-  .Collab{ width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-flex-wrap: wrap;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
-.images {  height: 100%;
-    width: 50% }
-  @media only screen and (max-width: 900px) {
-    .EventInfo{align-items: center;
-    width: 100%;}
-    .EventInfo1{align-items: center;
-        width: 100%;}
-        .EventInfo2{align-items: center;
-            padding-top:11px ;
-            width: 100%;}
-        .images {  height: 100%;width: 100%}
-        .EventInfo1 p{text-align: center;}
-        .EventInfo1 h1{text-align: center;}
-        .EventInfo2 h1{text-align: center;}
-        .EventInfo2 p{text-align: center;}
+.Collab {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.images {
+  height: 100%;
+  width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+  .EventInfo2 img {
+    padding: 28% 10% 10% 6% !important;
+    display: none;
   }
-  
-  .imgCARTIER{
-      width: 50%;height: 120%;
+  .EventInfo {
+    align-items: center;
+    width: 100%;
+  }
+  .EventInfo1 {
+    align-items: center;
+    width: 100%;
+  }
+  .EventInfo2 {
+    align-items: center;
+    padding-top: 11px;
+    width: 100%;
+  }
+  .images {
+    height: 100%;
+    width: 100%;
+  }
+  .EventInfo1 p {
+    text-align: center;
+  }
+  .EventInfo1 h1 {
+    text-align: center;
+  }
+  .EventInfo2 h1 {
+    text-align: center;
+  }
+  .EventInfo2 p {
+    text-align: center;
+  }
+}
+
+.imgCARTIER {
+  width: 50%;
+  height: 120%;
+}
+.EventInfo2 span {
+  color: #fff;
+
+  font-size: 400%;
+}
+@media screen and (max-width: 800px) {
+    .div_text p{   
+        margin-left: -11px !important; }
+    .div_text {
+        margin-top: -23%;
+        padding-left: 53px;
+      }
+    .Cards .div_text  {
      
+        padding-left: 53px;
+      }
+  .Cards .div_text span {
+    text-align: center;
+    font-size: 37px;
+    color: white !important;
+    margin: auto;
+    margin-left: 53px;
+    padding-left: 53px;
   }
-  .EventInfo2 span{
-      color: #fff;
-    
-    font-size:400%} 
-  @media screen and (max-width:700px){
-    .imgCARTIER{
-        
-        width: 10%;height: 60%;
-       
-    }
-    .EventInfo2 span{font-size:200%} 
+  .Cards .div_text p {
+    text-align: center;
+    font-size: 37px;
+    color: white !important;
+    margin: auto;
+    margin-left: 53px;
+    padding-left: 53px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .imgCARTIER {
+    margin: 45px;
+    width: 1%;
+    height: 1%;
+  }
+  .EventInfo2 span {
+    font-size: 200%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Cards .EventInfo2IMG {
+    width: 50%;
+    padding: 30% 10% 10% 6% !important;
   }
 
-  @media screen and (max-width: 800px) {
-
-    .Container img {
-      font-size: 0% !important;
-      display: none;
-    }
+  .Cards .div_text {
+    margin-top: 6% !important;
   }
-  
+  .Card .EventInfo2 {
+    padding: 30% 10% 10% 6% !important;
+    width: 50%;
+  }
+  /*   */
+  .ContactUsButton {
+    margin-left: 36px;
+  }
+  .Cards .Events h1 {
+    padding-left: 95px;
+  }
+  .imagesornament {
+    display: none;
+  }
+  .Cards .Container h1 {
+    font-size: 180% !important;
+  }
+  .Cards .Container img {
+    font-size: 0% !important;
+    display: none;
+  }
+}
+.Container h1 {
+  font-size: 400%;
+}
+
+.Container .h1is {
+  padding-top: 300px;
+}
+
+.div_text span  ,.div_text p{
+  text-align: center;
+  font-size: 30px;
+  color: white !important;
+  margin: auto;
+}
+.div_text {
+  margin-top: -23%;
+}
+.div_text p{padding-left: 52px; }

@@ -9,11 +9,18 @@ import ph6 from "../../assets/gallery06.png"
 import about from "../../assets/ornament4.png"
 const Gallerie = () => {
     return (
-        <div className={style.Container}>
+        <div className={style.Container} >
         <h1>GALLERY</h1>
         <div  className={style.line}></div>
         <div className={style.card}>
-            <img src={ph1} style={{padding:"3%"}}/> <img src={ph2} style={{padding:"3%"}}/> <img src={ph3} style={{padding:"3%"}}/> <img src={ph4} style={{padding:"3%"}}/> <img src={ph5} style={{padding:"3%"}}/> <img src={ph6} style={{padding:"3%"}}/>
+            <img src={ph1} style={{padding:"3%"}}/>
+             <img src={ph2} style={{padding:"3%"}}/> 
+            <img src={ph3} style={{padding:"3%"}}/> 
+            <img src={ph4} style={{padding:"3%"}}/> 
+            <img src={ph5} style={{padding:"3%"}}/> 
+            <img src={ph6} style={{padding:"3%"}}/>
+
+
         </div>
         <button className={style.ContactUsButton}>EXPLORE MORE</button>
         <div className={style.About}>
