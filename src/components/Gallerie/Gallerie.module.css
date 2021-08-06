@@ -66,3 +66,17 @@
     font-size: 300%;
     letter-spacing: 2px;
  }
+ .imgarea{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+ }
+ .singleimg{
+     padding: 0 20px 20px;
+ }
+ img:hover{
+opacity: .5;
+transition: .9s;
+ }
