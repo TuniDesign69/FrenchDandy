@@ -12,8 +12,13 @@ const Gallerie = () => {
         <div className={style.Container}>
         <h1>GALLERY</h1>
         <div  className={style.line}></div>
-        <div className={style.card}>
-            <img src={ph1} style={{padding:"3%"}}/> <img src={ph2} style={{padding:"3%"}}/> <img src={ph3} style={{padding:"3%"}}/> <img src={ph4} style={{padding:"3%"}}/> <img src={ph5} style={{padding:"3%"}}/> <img src={ph6} style={{padding:"3%"}}/>
+        <div className={style.imgarea}>
+          <div className={style.singleimg}>  <img src={ph1} /> </div>
+          <div className={style.singleimg}> <img src={ph2} /> </div>
+          <div className={style.singleimg}><img src={ph3} /> </div>
+          <div className={style.singleimg}><img src={ph4} /> </div>
+          <div className={style.singleimg}> <img src={ph5} /> </div>
+          <div className={style.singleimg}> <img src={ph6} /></div>
         </div>
         <button className={style.ContactUsButton}>EXPLORE MORE</button>
         <div className={style.About}>
